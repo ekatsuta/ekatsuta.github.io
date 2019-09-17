@@ -10,7 +10,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: transparent;
-  position: fixed
+  /* position: fixed */
 }
 
 .topnav a {
@@ -29,8 +29,7 @@ body {
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
-  color: white;
+  text-decoration: underline;
 }
 
 .topnav .icon {
@@ -57,4 +56,44 @@ body {
     display: block;
     text-align: left;
   }
+}
+
+header {
+  max-width: 680px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  font-family: Inter, Arial, sans-serif;
+  color: #121212;
+  font-size: 30px;
+  line-height: 130%;
+}
+
+header h1 {
+  max-width: 680px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Inter, Arial, sans-serif;
+  color: #121212;
+  font-size: 38px;
+  line-height: 130%;
+  font-weight: 100
+}
+
+.master-wrapper {
+    height: auto;
+    max-width: 800px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+    padding: 0px;
+}
+
+.body {
+  border: 0px none #000;
+  background-color: #fcf5f2;
+  font-family: Inter, Arial, sans-serif;
+  color: #121212;
+  font-size: 13px;
+  line-height: 150%;
+  font-weight: 400;
 }
