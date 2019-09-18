@@ -118,6 +118,11 @@ header h1 {
   .responsive {
     width: 45%
   }
+
+  .responsive img {
+    width: 100%;
+    margin: 0
+  }
 }
 
 /* @media screen and (max-width: 600px) {
