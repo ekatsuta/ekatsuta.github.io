@@ -124,7 +124,7 @@ header h1 {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .collapsible-nav a {display: none;}
   .collapsible-nav a.icon {
     float: right;
@@ -134,7 +134,7 @@ header h1 {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
