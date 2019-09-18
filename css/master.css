@@ -103,7 +103,7 @@ header h1 {
 .responsive {
   display: flex;
   justify-content: center;
-  width: 100%;
+  max-width: 100%;
   margin: 1%
 }
 
@@ -119,7 +119,7 @@ header h1 {
   }
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -139,4 +139,4 @@ header h1 {
     display: block;
     text-align: left;
   }
-}
+} */
