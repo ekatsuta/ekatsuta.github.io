@@ -110,7 +110,7 @@ header h1 {
   max-width: 100%;
   /* height: auto; */
   margin: 5%;
-  display: block
+  display: block;
 }
 
 @media screen and (min-width: 812px){
@@ -120,8 +120,9 @@ header h1 {
 
   .illustration img {
     max-width: 100%;
-    height: auto;
-    margin: 1%
+    max-height: 100%;
+    margin: 1%;
+    object-fit: contain
   }
 }
 
