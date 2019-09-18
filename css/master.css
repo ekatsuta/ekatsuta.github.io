@@ -1,6 +1,3 @@
-h1 {
-  color: pink
-}
 
 body {
   margin: 0;
@@ -40,12 +37,13 @@ body {
   justify-content: flex-end;
 }
 
-
-
+.bolded {
+  font-weight: bold
+}
 
 
 header {
-  max-width: 680px;
+  /* max-width: 680px; */
   margin-top: 150px;
   margin-bottom: 150px;
   font-family: Inter, Arial, sans-serif;
@@ -62,7 +60,7 @@ header h1 {
   color: #121212;
   font-size: 38px;
   line-height: 130%;
-  font-weight: 100
+  font-weight: 100s
 }
 
 .master-wrapper {
@@ -100,7 +98,7 @@ header h1 {
   flex-wrap: wrap;
 }
 
-.responsive {
+.illustration {
   display: flex;
   justify-content: center;
   max-width: 100%;
@@ -116,7 +114,7 @@ header h1 {
 }
 
 @media screen and (min-width: 600px){
-  .responsive {
+  .illustration {
     width: 45%
   }
 
@@ -126,11 +124,13 @@ header h1 {
   }
 }
 
-/* @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
+@media screen and (max-width: 800px) {
+  .collapsible-nav a {display: none;}
+  .collapsible-nav a.icon {
     float: right;
     display: block;
+    text-align: right;
+    font-size: 30px
   }
 }
 
@@ -146,4 +146,8 @@ header h1 {
     display: block;
     text-align: left;
   }
-} */
+  .collapsible-nav {
+    display: flex;
+    flex-direction: column
+  }
+}
