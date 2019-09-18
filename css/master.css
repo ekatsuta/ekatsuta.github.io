@@ -113,7 +113,7 @@ header h1 {
   display: block
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 812px){
   .illustration {
     width: 45%
   }
@@ -124,7 +124,7 @@ header h1 {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 812px) {
   .collapsible-nav a {display: none;}
   .collapsible-nav a.icon {
     float: right;
@@ -134,7 +134,7 @@ header h1 {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 812px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -150,4 +150,5 @@ header h1 {
     display: flex;
     flex-direction: column
   }
+  
 }
