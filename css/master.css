@@ -107,7 +107,7 @@ header h1 {
 }
 
 .illustration img {
-  width: 100%;
+  max-width: 100%;
   /* height: auto; */
   margin: 5%;
   display: block
@@ -119,7 +119,7 @@ header h1 {
   }
 
   .illustration img {
-    width: 100%;
+    max-width: 100%;
     margin: 0
   }
 }
@@ -150,5 +150,5 @@ header h1 {
     display: flex;
     flex-direction: column
   }
-  
+
 }
