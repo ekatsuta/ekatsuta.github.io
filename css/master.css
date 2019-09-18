@@ -120,9 +120,9 @@ header h1 {
   }
 
   .illustration img {
+    width: auto;
     max-width: 100%;
-    margin: 1%;
-    object-fit: contain
+    height: auto ;
   }
 }
 
