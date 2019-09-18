@@ -120,7 +120,8 @@ header h1 {
 
   .illustration img {
     max-width: 100%;
-    margin: 0
+    height: auto;
+    margin: 1%
   }
 }
 
