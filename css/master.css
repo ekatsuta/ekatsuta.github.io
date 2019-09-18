@@ -108,16 +108,16 @@ header h1 {
 
 .illustration img {
   max-width: 100%;
-  /* height: auto; */
+  height: auto;
   margin: 5%;
   display: block;
-  object-fit: contain
+  /* object-fit: contain */
 }
 
 @media screen and (max-width: 812px){
-  /* .illustration {
+  .illustration {
     width: 100%;
-  } */
+  }
 
   .illustration img {
     margin:auto;
