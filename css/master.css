@@ -104,7 +104,8 @@ header h1 {
   display: flex;
   justify-content: center;
   max-width: 100%;
-  margin: 1%
+  margin: 1%;
+  height: auto
 }
 
 .responsive img {
