@@ -108,10 +108,11 @@ header h1 {
   height: auto
 }
 
-.responsive img {
+.illustration img {
   width: 100%;
   /* height: auto; */
-  margin: 5%
+  margin: 5%;
+  display: block
 }
 
 @media screen and (min-width: 600px){
@@ -119,7 +120,7 @@ header h1 {
     width: 45%
   }
 
-  .responsive img {
+  .illustration img {
     width: 100%;
     margin: 0
   }
