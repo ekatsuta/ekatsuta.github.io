@@ -131,6 +131,13 @@ header h1 {
   /* object-fit: contain */
 }
 
+.projects-title {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  color: #5d5959;
+}
+
 .projects {
   padding: 1%
 }
