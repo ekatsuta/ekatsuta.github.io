@@ -1,3 +1,4 @@
+
 function collapseNav() {
   const x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
