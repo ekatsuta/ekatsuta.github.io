@@ -1,4 +1,8 @@
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -39,6 +43,11 @@ body {
 
 .bolded {
   font-weight: bold
+}
+
+.arrow-down {
+  display: flex;
+  justify-content: center;
 }
 
 .intro-header {
@@ -142,7 +151,7 @@ header h1 {
   padding: 1%
 }
 
-.project-1, .project-2, .project-3, .project-4, .social-media {
+.project-1, .project-2, .project-3, .project-4, .social-media, .arrow-down {
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fadein 2s; /* Firefox < 16 */
       -ms-animation: fadein 2s; /* Internet Explorer */
