@@ -213,10 +213,14 @@ header h1 {
 }
 
 .text {
-  background-color: #4CAF50;
+  background-color: #283044;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
+}
+
+.text:hover {
+  background-color: #82A4BA;
 }
 
 .social-media {
@@ -224,7 +228,7 @@ header h1 {
   width: 100%;
   /* align-items: center; */
   justify-content: center;
-  padding: 4% 0%
+  padding: 10% 0% 5% 0%
 }
 
 .social-media a {
@@ -324,7 +328,11 @@ Demo
   .topnav.responsive a {
     float: none;
     display: block;
-    text-align: left;
+    text-align: center;
+    background-color: #d3e4de
+  }
+  .topnav.responsive a:hover {
+    background-color: #519e83;
   }
   .collapsible-nav {
     display: flex;
